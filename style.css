@@ -3,3 +3,132 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-section {
+    height: 700px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-text {
+    padding: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form-text p {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    padding: 50px;
+    background-color: #fff;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fieldset {
+    display: flex;
+    gap: 50px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form-row input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label {
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.btn-container {
+    margin: 40px 0;
+}
+
+button[type='submit'] {
+    background-color: #596D48;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.account-text a {
+    color: #596D48;
+}
+
+.img-section {
+    width: 40%;
+}
+
+.green-leaf-img {
+    width: 100%;
+}
+
+.img-container {
+    position: relative;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    font-size: rem;
+}
+
+.logo-img {
+    width: 100px;
+    opacity: 1;
+}
+
+div h2 {
+    color: white;
+    font-family: "Noto Sans Runic", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5rem;
+}
